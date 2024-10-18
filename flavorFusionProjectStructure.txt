@@ -1,0 +1,47 @@
+casestudyseite/
+├── assets/
+│   └── images/
+│       ├── appstore/
+│       │   ├── QR/
+│       │   │   ├── QR_apple.svg
+│       │   │   └── QR_google.svg
+│       │   ├── Default_apple.png
+│       │   ├── Default_google.png
+│       │   ├── Hover_apple.png
+│       │   └── Hover_google.png
+│       ├── backgrounds/
+│       │   ├── BackgroundAfrika.png
+│       │   ├── BackgroundAsien.png
+│       │   ├── BackgroundFlavourFusion.png
+│       │   ├── BackgroundLateinamerika.png
+│       │   ├── BackgroundMediterran.png
+│       │   ├── BackgroundNahost.png
+│       │   ├── BackgroundNordamerika.png
+│       │   └── BackgroundNordeuropa.png
+│       ├── cards/
+│       │   ├── CardAfrika.png
+│       │   ├── CardAsien.png
+│       │   ├── CardLateinamerika.png
+│       │   ├── CardMediterran.png
+│       │   ├── CardNahost.png
+│       │   ├── CardNordamerika.png
+│       │   └── CardNordeuropa.png
+│       ├── cards_hover/
+│       │   ├── Hover_CardAfrika.png
+│       │   ├── Hover_CardAsien.png
+│       │   ├── Hover_CardLateinamerika.png
+│       │   ├── Hover_CardMediterran.png
+│       │   ├── Hover_CardNahost.png
+│       │   ├── Hover_CardNordamerika.png
+│       │   └── Hover_CardNordeuropa.png
+│       ├── casestudy/
+│       │   ├── ColorGrid.png
+│       │   ├── mockupHanddrawn.png
+│       │   ├── mockupLowFidelity.png
+│       │   └── TypoScreen.png
+│       ├── fonts/
+│       └── logo/
+│           ├── logo.png
+│           └── logotext.png
+├── index.html
+└── styles.css

@@ -1,0 +1,211 @@
+/* Allgemeine Stile */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F8F8; /* Sanfter, neutraler Hintergrund */
+    color: #333;
+}
+
+header {
+    background-image: url('assets/images/backgrounds/BackgroundFlavourFusion.png');
+    background-size: cover;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+/* Container und Abschnitte */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+section {
+    margin-bottom: 50px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #FF6F61;
+}
+
+section h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #4CAF50;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #616161;
+}
+
+/* Divider */
+.divider {
+    border-bottom: 2px solid #FF6F61;
+    margin: 50px 0;
+}
+
+/* Highlight */
+.highlight {
+    background-color: #FFF4E6;
+    padding: 15px;
+    border-left: 5px solid #FF6F61;
+    border-radius: 5px;
+}
+
+/* Interaktive Call-to-Action Buttons */
+.cta-button {
+    background-color: #FFD700;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    text-align: center;
+}
+
+.cta-button:hover {
+    background-color: #FFC107;
+    transform: scale(1.05);
+}
+
+/* Bildcontainer und Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.grid img:hover {
+    transform: scale(1.05);
+}
+
+/* Bildcontainer für spezielle Bereiche */
+.backgrounds-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.backgrounds-container img {
+    width: 48%;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.cards-container img {
+    width: 100%;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.cards-container img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* App Store Buttons und QR-Codes */
+.app-store-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.app-store-buttons img {
+    width: 150px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.app-store-buttons img:hover {
+    transform: scale(1.1);
+}
+
+/* QR Code Hover Effekt */
+.app-store-qr {
+    display: none;
+    position: absolute;
+    top: -70px;
+    right: -20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.app-store-buttons img:hover + .app-store-qr {
+    display: block;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* Responsives Design */
+@media (max-width: 768px) {
+    .backgrounds-container {
+        flex-direction: column;
+    }
+
+    .backgrounds-container img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .app-store-buttons img {
+        width: 120px;
+    }
+}
